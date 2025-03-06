@@ -7,7 +7,7 @@ The goal of this project was to create a regression model to predict the taxi fa
 The NYC Taxi and Limousine Commission data came from [NYC.gov](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). The data consisted of approximately 22k unique trips and 18 features. The features included information on trip duration and destination, vendor used, toll information, and payment type. In connection to this, a feature was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and reformatted into the proper data type.  
 
 ## **Modeling and Evaluation**
-Four different models were developed: Multiple Linear Regression, Single Tuned Decision Tree, Random Forest, and XGBoost. The models were evaluated on a separate validation set which was randomly sampled from the main dataset. The best performing model was Multiple Linear Regression, achieving an R² score of 0.8770 and an MSE score of 13.6283 on the validation set. This model was then used to predict on the test set, achieving an R² score of 0.8682 and an MSE score of 14.3312.
+Four different models were trained: Multiple Linear Regression, Single Tuned Decision Tree, Random Forest, and XGBoost. The models were evaluated on a separate validation set which was randomly sampled from the main dataset. The best performing model was Multiple Linear Regression, achieving an R² score of 0.8770 and an MSE score of 13.6283 on the validation set. This model was then used to predict on the test set, achieving an R² score of 0.8682 and an MSE score of 14.3312.
 
 Performance scores on validation data
 | Model Name               | R²   | MAE  | MSE   |
