@@ -1,0 +1,6 @@
+,Model Name,R2,MAE,MSE
+0,Random Forest,0.8828,2.1654,12.8813
+1,XGBoost,0.8801,2.1102,13.1776
+2,Decision Tree,0.8798,2.2424,13.2102
+3,Multiple Linear Regression_2,0.8781,2.0994,13.395
+4,Multiple Linear Regression_1,0.8781,2.1012,13.3994
